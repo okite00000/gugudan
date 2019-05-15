@@ -2,39 +2,51 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="@drawable/jjj">
 
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
         android:gravity="center">
-        <TextView
-            android:textSize="45dp"
-            android:text="구구단 완전 정복"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content" />
+        <!--<TextView-->
+            <!--android:textSize="45dp"-->
+            <!--android:text="구구단 선택"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content" />-->
     </LinearLayout>
 
     <LinearLayout
         android:layout_weight="1"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:orientation="horizontal">
+        android:orientation="horizontal"
+        android:gravity="center">
         <Button
             android:id="@+id/two"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="11단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginLeft="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
         <Button
             android:id="@+id/three"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="12단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
     </LinearLayout>
 
     <LinearLayout
@@ -44,18 +56,28 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/four"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="13단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginLeft="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
         <Button
             android:id="@+id/five"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="14단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
     </LinearLayout>
 
     <LinearLayout
@@ -65,18 +87,29 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/six"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="15단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginLeft="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
         <Button
             android:id="@+id/seven"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="16단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
     </LinearLayout>
 
     <LinearLayout
@@ -86,18 +119,28 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/eight"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="17단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginLeft="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
         <Button
             android:id="@+id/nine"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="18단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
     </LinearLayout>
 
     <LinearLayout
@@ -107,18 +150,33 @@
         android:orientation="horizontal">
         <Button
             android:id="@+id/ten"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="19단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginLeft="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold" />
         <Button
             android:id="@+id/eleven"
-            android:textSize="30dp"
+            android:textSize="12dp"
             android:layout_weight="1"
             android:text="20단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"
+            android:drawableTop="@drawable/dd0"
+            android:layout_marginRight="40dp"
+            android:textColor="#ffffff"
+            android:textStyle="bold"/>
     </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"></LinearLayout>
 
 </LinearLayout>

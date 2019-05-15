@@ -2,7 +2,8 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:orientation="vertical">
+    android:orientation="vertical"
+    android:background="#fffffF">
 
     <LinearLayout
         android:layout_weight="1"
@@ -15,14 +16,16 @@
             android:layout_weight="1"
             android:text="2~9단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"/>
         <Button
             android:id="@+id/hard"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="2~19단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000"/>
     </LinearLayout>
 
     <LinearLayout
@@ -36,14 +39,16 @@
             android:layout_weight="1"
             android:text="2단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/three1"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="3단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -57,14 +62,16 @@
             android:layout_weight="1"
             android:text="4단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/five1"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="5단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -78,14 +85,16 @@
             android:layout_weight="1"
             android:text="6단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/seven1"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="7단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -99,14 +108,16 @@
             android:layout_weight="1"
             android:text="8단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/nine1"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="9단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -120,14 +131,16 @@
             android:layout_weight="1"
             android:text="11단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/k12"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="12단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -141,14 +154,16 @@
             android:layout_weight="1"
             android:text="13단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/k14"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="14단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -162,14 +177,16 @@
             android:layout_weight="1"
             android:text="15단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/k16"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="16단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -183,14 +200,16 @@
             android:layout_weight="1"
             android:text="17단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/k18"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="18단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
     <LinearLayout
@@ -204,14 +223,16 @@
             android:layout_weight="1"
             android:text="19단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
         <Button
             android:id="@+id/k20"
             android:textSize="30dp"
             android:layout_weight="1"
             android:text="20단"
             android:layout_width="match_parent"
-            android:layout_height="match_parent" />
+            android:layout_height="match_parent"
+            android:background="#00ff0000" />
     </LinearLayout>
 
 </LinearLayout>

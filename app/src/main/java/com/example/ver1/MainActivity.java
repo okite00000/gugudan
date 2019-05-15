@@ -63,5 +63,35 @@ public class MainActivity extends AppCompatActivity {
             }
         });
 
+        Button btn5 = findViewById(R.id.mod5);
+        btn5.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=1Yxjkg0XcXM"));
+                startActivity(intent);
+            }
+        });
+
+        Button btn6 = findViewById(R.id.mod6);
+        btn6.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.youtube.com/watch?v=LSgxYDJF14g"));
+                startActivity(intent);
+            }
+        });
+
+        Button btns = findViewById(R.id.hiddens);
+        btns.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent intent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://shop.tottenhamhotspur.com/"));
+                startActivity(intent);
+            }
+        });
+
+        // 보이지 않는 버튼 위, 중간, 아래 추가함
+        // 구구단 선택으로 바꿨음, 토트넘 엠블럼 마크로 변환
+
     }
 }
